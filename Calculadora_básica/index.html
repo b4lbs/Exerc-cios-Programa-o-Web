@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="scripts.js"></script>
+    <title>Calculadora</title>
+</head>
+<body>
+    <div id="corpo">
+        <h1>Calculadora</h1>
+        <div id="display"></div>
+        <button id="num9" onclick="press(9)">9</button>
+        <button id="num8" onclick="press(8)">8</button>
+        <button id="num7" onclick="press(7)">7</button>   
+        <br>
+        <button id='num6' onclick="press(6)">6</button>
+        <button id="num5" onclick="press(5)">5</button>
+        <button id="num4" onclick="press(4)">4</button>  
+        <br>
+        <button id="num3" onclick="press(3)">3</button>
+        <button id="num2" onclick="press(2)">2</button>
+        <button id="num1" onclick="press(1)">1</button>     
+        <br>
+        <button id="num0" onclick="press(0)">0</button>    
+        <button id="deci" onclick="press(15)">.</button> 
+        <br>
+        <button class="funcionais" id="soma" onclick="press(11)">+</button>
+        <button class="funcionais" id="sub" onclick="press(12)">-</button>
+        <button class="funcionais" id="multi" onclick="press(13)">x</button>
+        <button class="funcionais" id="divi" onclick="press(14)">/</button>
+        <button class="funcionais" id="ac" onclick="press(10)">AC</button>
+        <br>
+        <button id="igual"onclick="resultado()">=</button>
+    </div>
+</body>
+</html>
